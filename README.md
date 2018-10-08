@@ -1,3 +1,14 @@
+#Wifi credentials are in a header file for each sketch
+wifi_credentials.h
+This file is not uploaded to the public git repo
+for obvious reasons
+This file defines
+WIFI_SSID & WIFI_PASSWORD
+To compile a sketch create this file in the same directory
+as the sketch
+#define WIFI_SSID     <your_wifi_ssid>
+#define WIFI_PASSWORD <your_wifi_password>
+
 # Arduino: Description of sketches
 atmega_esp8266: standalone atmega + aes + new serial parse + json
 
